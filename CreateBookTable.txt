@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[bookdata] (
+    [Title]     VARCHAR (54) NOT NULL,
+    [Author]    VARCHAR (22) NULL,
+    [Genre]     VARCHAR (10) NOT NULL,
+    [SubGenre]  VARCHAR (17) NOT NULL,
+    [Height]    INT          NOT NULL,
+    [Publisher] VARCHAR (16) NULL,
+    PRIMARY KEY CLUSTERED ([Title] ASC)
+);

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BookLibrary" xmlns="http://schemas.microsoft.com/linqtosql/mapping/2007">
+  <Table Name="dbo.bookdata" Member="Bookdatas">
+    <Type Name="LinqToSqlMetal.Bookdata">
+      <Column Name="Title" Member="Title" Storage="_Title" DbType="VarChar(54) NOT NULL" CanBeNull="false" IsPrimaryKey="true" />
+      <Column Name="Author" Member="Author" Storage="_Author" DbType="VarChar(22)" />
+      <Column Name="Genre" Member="Genre" Storage="_Genre" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="SubGenre" Member="SubGenre" Storage="_SubGenre" DbType="VarChar(17) NOT NULL" CanBeNull="false" />
+      <Column Name="Height" Member="Height" Storage="_Height" DbType="Int NOT NULL" />
+      <Column Name="Publisher" Member="Publisher" Storage="_Publisher" DbType="VarChar(16)" />
+    </Type>
+  </Table>
+</Database>
